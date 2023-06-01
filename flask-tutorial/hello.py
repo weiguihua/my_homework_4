@@ -5,4 +5,5 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return '欢迎来到个人博客！'
+    print("欢迎来到个人博客！")
+    
